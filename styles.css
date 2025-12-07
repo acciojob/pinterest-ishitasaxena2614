@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+/* HERO SECTION CONTAINER */
+.hero {
+    display: flex;                /* required */
+    justify-content: center;      /* required */
+    align-items: center;          /* required */
+    padding: 40px;
+    gap: 40px;
+}
+
+/* IMAGE PROPERTIES */
+.hero img {
+    width: 600px;                 /* required */
+    height: 350px;                /* required */
+    object-fit: cover;            /* required */
+    border-radius: 10px;
+}
+
+/* TEXT AREA */
+.hero-text {
+    max-width: 350px;
+}
+
+.hero-text h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+/* BUTTON */
+.btn {
+    padding: 10px 20px;           /* required */
+    background-color: red;        /* required */
+    color: white;                 /* required */
+    border-radius: 5px;           /* required */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
